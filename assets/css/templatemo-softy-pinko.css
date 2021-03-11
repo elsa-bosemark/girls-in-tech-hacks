@@ -312,7 +312,7 @@ body {
 
 a.main-button-slider {
   font-size: 13px;
-  border-radius: 20px;
+  border-radius: 10px;
   padding: 12px 20px;
   background-color: #ff589e;
   text-transform: uppercase;
@@ -330,7 +330,7 @@ a.main-button-slider:hover {
 
 a.main-button {
   font-size: 13px;
-  border-radius: 20px;
+  border-radius: 10px;
   padding: 12px 20px;
   background-color: #8261ee;
   text-transform: uppercase;
@@ -351,7 +351,7 @@ button.main-button {
   border: none;
   cursor: pointer;
   font-size: 13px;
-  border-radius: 20px;
+  border-radius: 10px;
   padding: 12px 20px;
   background-color: #8261ee;
   text-transform: uppercase;
@@ -755,9 +755,9 @@ features
   display: block;
   background: #FFFFFF;
   box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.10);
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  border-radius: 20px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
   padding: 30px;
   text-align: center;
   -webkit-transition: all 0.3s ease 0s;
@@ -823,7 +823,7 @@ features
 .home-feature {
   padding-bottom: 0px;
   padding-top: 30px;
-  margin-top: -220px;
+  margin-top: -120px;
   z-index: 9;
 }
 
@@ -915,7 +915,7 @@ parallax & home seperator
   display: block;
   background: #fff;
   padding: 20px;
-  border-radius: 20px;
+  border-radius: 10px;
   box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.08);
   margin-bottom: 30px;
   position: relative;
@@ -942,7 +942,7 @@ parallax & home seperator
   left: 0px;
   right: -20px;
   margin: auto;
-  border-radius: 20px;
+  border-radius: 10px;
 }
 
 .mini .mini-content .mini-box i {
@@ -1113,7 +1113,7 @@ team
 .team-item {
   background: #fff;
   box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.10);
-  border-radius: 20px;
+  border-radius: 10px;
   position: relative;
   margin-bottom: 30px;
   padding-bottom: 25px;
@@ -1199,7 +1199,7 @@ pricing
 .pricing-item {
   background: #FFFFFF;
   box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.1);
-  border-radius: 20px;
+  border-radius: 10px;
   margin-bottom: 30px;
   margin-top: 20px;
   padding: 30px 0px 40px 0px;
@@ -1262,7 +1262,7 @@ pricing
   margin: auto;
   margin-bottom: 40px;
   margin-top: 5px;
-  border-radius: 20px;
+  border-radius: 10px;
 }
 
 .pricing-item .pricing-body .price-wrapper .currency {
@@ -1324,7 +1324,7 @@ blog
 
 .blog-post-thumb .img {
   overflow: hidden;
-  border-radius: 20px;
+  border-radius: 10px;
   position: relative;
   height: 200px;
 }
@@ -1585,4 +1585,18 @@ preloader
   100% {
     opacity: 0;
   }
+}
+
+.time-table li {
+  box-shadow: 0 15px 38px 0 rgb(0 0 0 / 10%);
+}
+
+.bg-light {
+  background-color: #fff!important;
+  border-radius: 10px;
+}
+
+.schedule-section{
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
