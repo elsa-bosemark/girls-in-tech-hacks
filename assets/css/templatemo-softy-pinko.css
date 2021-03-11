@@ -1600,3 +1600,7 @@ preloader
   margin-top: 100px;
   margin-bottom: 100px;
 }
+
+.logo-img{
+  height: 30px;
+}
