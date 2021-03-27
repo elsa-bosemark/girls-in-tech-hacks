@@ -1256,8 +1256,7 @@ pricing
 
 .pricing-item .pricing-body .price-wrapper {
   text-align: center;
-  padding-top: 20px;
-  padding-bottom: 13px;
+  padding: 20px;
   background: #8261ee;
   width: 80%;
   margin: auto;
@@ -1277,7 +1276,7 @@ pricing
 
 .pricing-item .pricing-body .price-wrapper .price {
   font-weight: 500;
-  font-size: 28px;
+  font-size: 18px;
   color: #fff;
 }
 
@@ -1302,6 +1301,7 @@ pricing
 .pricing-item .pricing-body .list li.active {
   color: #7a7a7a;
   text-decoration: none;
+  margin: 10px 50px 10px 50px;
 }
 
 .pricing-item .pricing-footer {
@@ -1630,7 +1630,7 @@ preloader
 
 .client-item {
   float: left;
-  width: 15%;
+  width: 20%;
   height: 115px;
   border: 1px solid rgba(255, 255, 255, 0.05);
   padding: 20px;
@@ -1730,6 +1730,10 @@ details>summary::-webkit-details-marker {
   text-align: center;
 }
 
-.space{
+.space {
   justify-content: space-around;
+}
+
+.bottomspace {
+  margin-bottom: 30px;
 }
