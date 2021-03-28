@@ -1737,3 +1737,7 @@ details>summary::-webkit-details-marker {
 .bottomspace {
   margin-bottom: 30px;
 }
+
+.prize-img{
+  width:100px;
+}
