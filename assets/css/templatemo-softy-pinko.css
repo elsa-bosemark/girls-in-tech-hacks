@@ -1741,3 +1741,10 @@ details>summary::-webkit-details-marker {
 .prize-img{
   width:100px;
 }
+
+.space{
+  padding-top: 10px;
+}
+.blacktext{
+  color:#000 !important
+}
