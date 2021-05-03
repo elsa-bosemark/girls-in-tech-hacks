@@ -315,9 +315,7 @@ a.main-button-slider {
   font-size: 13px;
   border-radius: 5px;
   padding: 12px 20px;
-  background-color: #3ABDCF;
   text-transform: uppercase;
-  color: #fff;
   letter-spacing: 0.25px;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
@@ -325,8 +323,24 @@ a.main-button-slider {
   transition: all 0.3s ease 0s;
 }
 
-a.main-button-slider:hover {
-  background-color: #8261ee;
+.button1{
+  background-color: #3ABDCF;
+  color: #fff;
+}
+
+a.button1:hover {
+  background-color: #4E47DE;
+  color:#fff;
+}
+
+.button2{
+  background-color: #f2f2fe;
+  color: #8261ee;
+}
+
+a.button2:hover {
+  background-color: #4E47DE;
+  color: #fff;
 }
 
 a.main-button {
@@ -1448,7 +1462,6 @@ footer
 */
 
 footer {
-  background-image: linear-gradient(127deg, #a3ABDCF 0%, #8261ee 91%);
   padding-top: 30px;
 }
 
@@ -1462,7 +1475,7 @@ footer .social li {
   margin: 0px 10px;
   display: inline-block;
 }
-
+/* 
 footer .social li a {
   color: #9d5bd9;
   text-align: center;
@@ -1477,12 +1490,9 @@ footer .social li a {
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
-}
+} */
 
-footer .social li a:hover {
-  background-color: #3ABDCF;
-  color: #fff;
-}
+
 
 footer .copyright {
   text-align: center;
@@ -1517,7 +1527,6 @@ preloader
 
 #preloader {
   overflow: hidden;
-  background-image: linear-gradient(135deg, #a3ABDCF 0%, #8261ee 100%);
   left: 0;
   right: 0;
   top: 0;
@@ -1747,4 +1756,25 @@ details>summary::-webkit-details-marker {
 }
 .blacktext{
   color:#000 !important
+}
+
+.fa{
+  color:#8261ee;
+  background-color: #f2f2fe;
+  padding: 10px;
+  border-radius: 3px;
+}
+
+.fa:hover{
+  color:#f2f2fe;
+  background-color: #8261ee;
+}
+
+.buttonspace{
+  padding-left: 10px;
+}
+
+.center{
+  justify-content: center;
+  align-items: center;
 }
