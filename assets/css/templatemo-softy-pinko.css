@@ -1667,7 +1667,7 @@ preloader
   margin-right: .5rem;
 }
 
-.speaker-block img {
+img {
   border-radius: 5px;
 }
 
@@ -1777,4 +1777,13 @@ details>summary::-webkit-details-marker {
 .center{
   justify-content: center;
   align-items: center;
+}
+.wrap-text{
+    text-align: justify;
+    font-size: 25px;
+}
+
+.workshop-img{
+  display:inline;
+  width:100px;
 }
