@@ -1696,16 +1696,32 @@ details {
   overflow: hidden;
 }
 
-details>summary::after {
-  position: absolute;
+
+.faq-details>summary::after {
   content: "+";
-  right: 20px;
 }
 
-details[open]>summary::after {
-  position: absolute;
+.workshop-details>summary::after {
+  font-size: 15px;
+  background-color: #8261ee;
+  padding:10px;
+  border-radius: 5px;
+  margin:10px;
+  color:#FFFFFF;
+  content: "Show More";
+}
+
+.faq-details[open]>summary::after {
   content: "-";
-  right: 20px;
+}
+.workshop-details[open]>summary::after {
+  font-size: 15px;
+  background-color: #8261ee;
+  padding:10px;
+  border-radius: 5px;
+  color:#FFFFFF;
+  margin:10px;
+  content: "Show Less";
 }
 
 details>summary::-webkit-details-marker {
