@@ -1803,3 +1803,20 @@ details>summary::-webkit-details-marker {
   display:inline;
   width:100px;
 }
+
+.noteibanner{
+  background-color: white;
+  border-radius: 5px;
+  padding: 3px;
+  margin-bottom: 20px;
+  text-align: center;
+  border-color:white;
+  border-width: 15px;
+}
+.white{
+  color:white;
+  padding:10px;
+  background-color:#8261ee;
+  border-radius: 5px;
+  margin: 3px;
+}
