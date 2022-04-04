@@ -1820,3 +1820,16 @@ details>summary::-webkit-details-marker {
   border-radius: 5px;
   margin: 3px;
 }
+
+.hackbutton{
+  color:#8261ee;
+  background-color: #f2f2fe;
+  padding: 10px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.hackbutton:hover{
+  color:#f2f2fe;
+  background-color: #8261ee;
+}
