@@ -1815,11 +1815,12 @@ details>summary::-webkit-details-marker {
   border-width: 15px;
 }
 .notice{
-  color: #6cbec9 !important;;
+  color: #000 !important;;
   padding:10px;
   background-color:#fff; 
   border-radius: 5px;
   margin: 3px;
+  font-weight: 700;
 }
 
 .hackbutton{
